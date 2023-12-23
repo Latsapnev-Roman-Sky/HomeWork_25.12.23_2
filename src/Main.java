@@ -15,5 +15,12 @@ public class Main {
         }
         System.out.println();
 
+        //Task 3
+
+        for (int i = 0; i < 17; i = i + 2) {
+            System.out.print(i+" ");
+        }
+        System.out.println();
+
     }
 }
