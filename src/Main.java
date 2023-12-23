@@ -8,5 +8,12 @@ public class Main {
         }
         System.out.println();
 
+        //Task 2
+
+        for (int i = 10; i > 0; i--) {
+            System.out.print(i+" ");
+        }
+        System.out.println();
+
     }
 }
