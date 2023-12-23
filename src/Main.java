@@ -42,5 +42,12 @@ public class Main {
         }
         System.out.println();
 
+        //Task 7
+
+        for (int i = 1; i <= 512; i = i * 2) {
+            System.out.print(i+" ");
+        }
+        System.out.println();
+
     }
 }
