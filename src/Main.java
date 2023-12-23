@@ -49,5 +49,17 @@ public class Main {
         }
         System.out.println();
 
+        //Task 8
+
+        int deposit = 29_000;
+        int total = 0;
+        for (int month = 1; month <= 12; month++) {
+            total = total + deposit;
+            System.out.println("Месяц "+month+" сумма накоплений равна "+total+" рублей");
+        }
+        System.out.println(total);
+
+
+
     }
 }
